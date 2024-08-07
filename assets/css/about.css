@@ -1,0 +1,39 @@
+
+body{
+    overflow-x: hidden;
+    }
+.title{text-transform: uppercase; font-size: 72px; font-weight: 800;}
+.about-article{margin-left: 10px;}
+/* .achieves{display: flex; width: 75%; align-items: center;
+flex-wrap: wrap;} */
+.achieves{
+    display: flex;
+    flex-wrap: wrap;
+    }
+.bold{font-weight: bold; font-size: 24px;}
+.achieve{
+    width: 30%;
+    }
+.achieve h3{
+    font-size: 24px;
+    font-weight: 900;
+    }
+.portfolios{display: flex;  justify-content: space-between; width: 45%;}
+.portfolio{width: 260px; margin: 5px 15px; }
+.p{flex-wrap: wrap;}
+
+
+@media screen and (min-width: 768px) {
+    .achieves{align-items: center;
+    justify-content: center;}
+    .about-article{margin-left: 80px;}
+    .portfolios{ background-color: white;}
+
+@media screen and (min-width: 1200px) {
+    .our-team{display: none;}
+    .wrapper{
+        background-image: linear-gradient(90deg, white 700px, yellow 700px);
+    }
+    .about-company{width: 650px;}
+    .achieves{position: absolute; left: 45%; top: 20%;}
+}}
